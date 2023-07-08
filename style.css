@@ -1,0 +1,117 @@
+@keyframes animacao{
+    0%{color: #DCDCDC; transform: scaleY(0.1) scaleX(0.1)}
+    25%{color:	#c0bfbf; transform: scaleY(1.0) scaleX(1.0)}
+    50%{color:#a7a4a4; transform: scaleY(0.1) scaleX(0.1)}
+    75%{color: #c0c0c0; transform: scaleY(1.0) scaleX(1.0)}
+    100%{color:#DCDCDC; transform: scaleY(0.1) scaleX(0.1)}
+}
+html{
+    background-color: #000000;
+    color: #F5F5F5;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+a:visited{
+    color: #5ab9d8;
+}
+a:hover{
+    color:#ADD8E6;
+    cursor:pointer;
+}
+a:active{
+    color:#87CEEB;
+}
+
+/* header*/
+
+    .cabeçalho {
+    padding-top: 20px;
+    padding-right:30px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+    background-color:#1C1C1C;
+    }
+    .pesquisa{
+        
+        padding-left: 50px;
+        color: #c0c0c0;
+    }
+    .button{ 
+    background-color:#ADD8E6; 
+    color:black;
+    cursor: pointer;
+    }
+    .button:hover{
+        background-color:#87CEEB;
+    }
+    .button:active{
+        background-color: #5ab9d8;
+    }
+
+/* main */
+
+    .corpo{
+    background-color: #1C1C1C;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    }
+    #container{
+        background-color: #2b2a2a;
+        padding-top: 30px;
+        text-align: justify;
+        color: #F5F5F5;
+        animation-name: animacao;
+        animation-duration:15s;
+        animation-iteration-count:infinite;
+    }
+    .título_principal{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 50px;
+    }
+    .título{
+    padding-top: 50px;
+    padding-bottom: 60px;
+    text-align: center;
+    font-size: 40px;
+    }
+    .parágrafo{
+        font-size: large;
+        text-align: justify;
+        font-size: 22px;
+        padding-bottom: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .parágrafo_dif{
+        color: #c0c0c0;
+        font-size: 30px;
+        padding-bottom: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    #título{
+        padding-top: 20px;
+    }
+    #imagem{
+        padding-left: 200px;
+        padding-bottom: 50px;
+        height: 550px;
+        width: 750px;
+    }
+    #link{
+        padding-left: 50px;
+        padding-bottom: 50px;
+    }
+
+/* footer */
+
+    .rodapé{
+    background-color:#87CEEB;
+    color: black;
+    padding-top: 20px;
+    padding-right:520px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    }
